@@ -1,0 +1,6 @@
+export const COUNT_INC = 'COUNT_INC';
+export const COUNT_DEC = 'COUNT_DEC';
+//photo
+export const GET_PHOTOS_PENDING = 'GET_PHOTOS_PENDING';
+export const GET_PHOTOS_RESOLVE = 'GET_PHOTOS_RESOLVE';
+export const GET_PHOTOS_ERROR = 'GET_PHOTOS_ERROR';
