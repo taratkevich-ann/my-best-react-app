@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import { MyComponents } from "./components/MyComponents";
-import {PhotoContainer} from "./components/PhotoContainer";
+import {Link} from "react-router-dom";
+import {HwButtonContainer} from './components/HwButton'
+
 
 function App() {
     const getData = () => {
@@ -10,6 +12,9 @@ function App() {
 
   return (
     <div className="App">
+        {/*<Link to='/photo'>Go to photo</Link>*/}
+        {/*<Link to='/count'>Go to count</Link>*/}
+        {/*<Link to='/users/:5'>Go to users</Link>*/}
       <MyComponents.Header logo={logo}/>
       <MyComponents.Body />
       <MyComponents.Section
@@ -19,10 +24,8 @@ function App() {
          user={{ name: "John", age: 34 }}
          data={getData()}
       />
-      <MyComponents.Users />
-
       <MyComponents.HwUsers />
-      <PhotoContainer/>
+      <HwButtonContainer />
     </div>
   );
 }
