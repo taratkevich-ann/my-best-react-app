@@ -8,3 +8,7 @@ export const GET_PHOTOS_ERROR = 'GET_PHOTOS_ERROR';
 export const RED_BG = 'RED_BG'
 export const GREEN_BG = 'GREEN_BG'
 export const BLUE_BG = 'BLUE_BG'
+// user
+export const GET_POSTS_PENDING = 'GET_POSTS_PENDING';
+export const GET_POSTS_RESOLVE = 'GET_POSTS_RESOLVE';
+export const GET_POSTS_ERROR = 'GET_POSTS_ERROR';

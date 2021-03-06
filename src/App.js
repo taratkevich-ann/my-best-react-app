@@ -3,7 +3,8 @@ import './App.css';
 import { MyComponents } from "./components/MyComponents";
 import {Link} from "react-router-dom";
 import {HwButtonContainer} from './components/HwButton'
-
+import {PostContainer} from "./components/PostContainer";
+import {PhotoContainer} from "./components/PhotoContainer";
 
 function App() {
     const getData = () => {
@@ -24,8 +25,11 @@ function App() {
          user={{ name: "John", age: 34 }}
          data={getData()}
       />
+      <PostContainer/>
+      <PhotoContainer/>
       <MyComponents.HwUsers />
       <HwButtonContainer />
+
     </div>
   );
 }

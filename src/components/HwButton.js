@@ -4,7 +4,6 @@ import {connect} from 'react-redux'
 import {actionRedBg, actionGreenBg, actionBlueBg} from "../actions/hwButton";
 
 const HwButton = ({actionRedBg, actionGreenBg, actionBlueBg, background}) => {
-    console.log({background})
     return (
         <div>
             <h2>Homework buttons</h2>
